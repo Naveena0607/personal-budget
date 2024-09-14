@@ -9,7 +9,7 @@ app.use("/",express.static("public"));
 console.log(budget)
 
 app.get("/hello", (req,res) => {
-    res.send("Hello Pooja");
+    res.send("Hello Naveena");
 })
 
 app.get("/budget", (req,res) => {
